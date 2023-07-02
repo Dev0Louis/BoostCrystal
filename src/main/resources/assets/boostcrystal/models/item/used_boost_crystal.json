@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "boostcrystal:item/used_boost_crystal"
+  }
+}

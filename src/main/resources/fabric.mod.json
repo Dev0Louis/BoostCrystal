@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "boostcrystal",
+  "version": "${version}",
+  "name": "BoostCrystal",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/cxx34/BoostCrystal"
+  },
+  "license": "MIT",
+  "icon": "assets/BoostCrystal/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "dev.louis.chainendcrystals.BoostCrystal"
+    ]
+  },
+  "mixins": [
+    "BoostCrystal.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

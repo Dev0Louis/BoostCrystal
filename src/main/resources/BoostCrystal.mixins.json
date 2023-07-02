@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.louis.chainendcrystals.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "ExplosionMixin",
+    "PlayerEntityMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
