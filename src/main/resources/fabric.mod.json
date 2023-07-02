@@ -9,7 +9,7 @@
     "repo": "https://github.com/cxx34/BoostCrystal"
   },
   "license": "MIT",
-  "icon": "assets/BoostCrystal/icon.png",
+  "icon": "assets/boostcrystal/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
