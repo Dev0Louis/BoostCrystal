@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GGG",
+    "GEG",
+    "GSG"
+  ],
+  "key": {
+    "G": {
+      "tag": "minecraft:glass"
+    },
+    "E": {
+      "item": "minecraft:ender_eye"
+    },
+    "S": {
+      "item": "minecraft:echo_shard"
+    }
+  },
+  "result": {
+    "item": "boostcrystal:boost_crystal",
+    "count": 4
+  }
+}
+

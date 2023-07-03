@@ -1,5 +1,6 @@
 package dev.louis.chainendcrystals.mixin;
 
+import dev.louis.chainendcrystals.BoostCrystal;
 import dev.louis.chainendcrystals.entity.BoostCrystalEntity;
 import net.minecraft.entity.Entity;
 import net.minecraft.util.math.Vec3d;
@@ -21,7 +22,7 @@ public abstract class ExplosionMixin {
     )
     private Vec3d modifyVec(Vec3d original) {
         System.out.println(original);
-        if(this.getEntity() instanceof BoostCrystalEntity) original = original.multiply(3);
+        if(this.getEntity() instanceof BoostCrystalEntity) original = original.multiply(BoostCrystal.config.multiplier);
         return original;
     }
 }
