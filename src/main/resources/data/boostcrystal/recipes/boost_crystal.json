@@ -1,5 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
+  "category": "misc",
   "pattern": [
     "GGG",
     "GEG",
@@ -7,7 +8,7 @@
   ],
   "key": {
     "G": {
-      "tag": "minecraft:glass"
+      "item": "minecraft:glass"
     },
     "E": {
       "item": "minecraft:ender_eye"
@@ -18,7 +19,7 @@
   },
   "result": {
     "item": "boostcrystal:boost_crystal",
-    "count": 4
+    "count": 1
   }
 }
 

@@ -38,7 +38,6 @@ public class BoostCrystalEntity extends Entity {
 
     @Override
     public boolean damage(DamageSource source, float amount) {
-        System.out.println("A");
         if (this.isInvulnerableTo(source))return false;
         if (!this.isRemoved() && !this.getWorld().isClient) {
             this.remove(Entity.RemovalReason.KILLED);

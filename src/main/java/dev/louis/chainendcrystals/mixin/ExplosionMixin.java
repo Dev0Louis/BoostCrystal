@@ -21,7 +21,6 @@ public abstract class ExplosionMixin {
             ordinal = 1
     )
     private Vec3d modifyVec(Vec3d original) {
-        System.out.println(original);
         if(this.getEntity() instanceof BoostCrystalEntity) original = original.multiply(BoostCrystal.config.multiplier);
         return original;
     }
