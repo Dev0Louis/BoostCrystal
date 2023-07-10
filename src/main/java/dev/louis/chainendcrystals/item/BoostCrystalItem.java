@@ -1,5 +1,6 @@
 package dev.louis.chainendcrystals.item;
 
+import dev.louis.chainendcrystals.BoostCrystal;
 import dev.louis.chainendcrystals.entity.BoostCrystalEntity;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.decoration.EndCrystalEntity;
@@ -36,7 +37,7 @@ public class BoostCrystalItem extends Item {
             world.spawnEntity(crystal);
             world.emitGameEvent(context.getPlayer(), GameEvent.ENTITY_PLACE, pos);
         }
-        context.getPlayer().getItemCooldownManager().set(context.getStack().getItem(), 20*3);
+        context.getPlayer().getItemCooldownManager().set(context.getStack().getItem(), BoostCrystal.config.cooldown);
         return ActionResult.success(world.isClient);
     }
 

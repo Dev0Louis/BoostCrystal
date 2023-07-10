@@ -12,6 +12,7 @@ public class Config {
     public static Gson GSON = new GsonBuilder().setPrettyPrinting().create();
  
     public int multiplier = 3;
+    public int cooldown = 60;
 
     public static void writeConfig(Config config) {
         var path = FabricLoader.getInstance().getConfigDir().resolve("boostcrystal_config.json");
